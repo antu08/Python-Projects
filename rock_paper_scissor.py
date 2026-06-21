@@ -1,8 +1,8 @@
 import random
 
 while True:
-    list = ['rock', 'paper', 'scissor']
-    computer = random.choice(list)
+    options = ['rock', 'paper', 'scissor']
+    computer = random.choice(options)
     x = input('Enter your choice (rock/paper/scissor [No to Exit] ): ')
     if(x == 'rock' and computer == 'paper'):
         print('Computer won')
